@@ -1,0 +1,37 @@
+.blue-theme{
+  .zt-pagers {
+    li {
+      color:#206CAC;
+      background-color: inherit;
+    }
+
+    li:hover {
+      background-color: #206CAC;
+      color:white;
+    }
+  }
+  .active {
+    background-color: #206CAC!important;
+    color: white !important;
+  }
+  //svg-color
+  .svg--inactive{
+    color: white;
+  }
+  .svg--active{
+    color:white;
+  }
+  .zt-pagination--button{
+    background-color: white;
+    color: #206CAC;
+  }
+  .zt-pagination--button:hover{
+    background-color: #206CAC;
+    color: white;
+  }
+  .disabled{
+    background-color: white!important;
+    color: #206CAC!important;
+    display: none;
+  }
+}

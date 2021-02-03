@@ -1,0 +1,37 @@
+.default-theme{
+  .zt-pagers {
+    li {
+      color:orangered;
+      background-color: inherit;
+    }
+
+    li:hover {
+      background-color: orangered;
+      color:white;
+    }
+  }
+  .active {
+    background-color: orangered !important;
+    color: white !important;
+  }
+  //svg-color
+  .svg--inactive{
+    color: white;
+  }
+  .svg--active{
+    color:white;
+  }
+  .zt-pagination--button{
+    background-color: white;
+    color: orangered;
+  }
+  .zt-pagination--button:hover{
+    background-color: orangered;
+    color: white;
+  }
+  .disabled{
+    background-color: white!important;
+    color: orangered!important;
+    display: none;
+  }
+}
